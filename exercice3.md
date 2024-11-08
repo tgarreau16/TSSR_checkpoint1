@@ -2,10 +2,10 @@
 
 2. la commande chmod 744 myfile permet de changer les droits
 
-3. 
+3. il suffit d'editer un fichier .gitignore avec *.pdf
 
-4. git merge 
-
+4. git checkout test_valide
+   git merge branch main
 
 5. echo "Malgré le prix élevé de 100$, il a dit "Bonjour !" au vendeur :"
    echo "- "Bonjour est-ce que ce clavier fonctionne bien ?"
@@ -13,16 +13,20 @@
    echo "- "Même des tildes ~ ?"
    echo "- "Evidemment !""
 
-8. mkdir : New-Item
-   cp : copy-Item
-   ls 
-   cd : Get-Location
+6.
+
 
 7. D'après le modèle Osi, la couche 2 est la couche de liaison et la couche 3 celle du réseau, les le commutateurs switch sur la couche 2
 le routeur sur la couche 3.
 
-9. Dans une trame Ethernet, le payload sont les données réellement transmises 
+8. les equivalents powershell
+   mkdir : New-Item
+   cp : copy-Item
+   ls 
+   cd : Get-Location
 
-10. Le CIDR est apparu pour augmenter le nombre d'adressages IPV4, car les classes prenait en charge un nombre fixe de périphériques.
+10. Dans une trame Ethernet, le payload sont les données réellement transmises 
+
+11. Le CIDR est apparu pour augmenter le nombre d'adressages IPV4, car les classes prenait en charge un nombre fixe de périphériques.
    
  
