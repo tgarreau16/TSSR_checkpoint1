@@ -13,8 +13,7 @@
    echo "- "Même des tildes ~ ?"
    echo "- "Evidemment !""
 
-6.
-
+6. Avec la commande : grep "gedit" 
 
 7. D'après le modèle Osi, la couche 2 est la couche de liaison et la couche 3 celle du réseau, les le commutateurs switch sur la couche 2
 le routeur sur la couche 3.
