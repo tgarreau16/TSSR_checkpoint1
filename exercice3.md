@@ -1,6 +1,10 @@
-1. la fonction cat/etc/passwd permet d'afficher les utilisateurs
-2. la commande chmod 744 myfile permet de chnager les droits 
-3. git merge 
+1. la fonction cat /etc/passwd permet d'afficher les utilisateurs
+
+2. la commande chmod 744 myfile permet de changer les droits
+
+3. 
+
+4. git merge 
 
 
 5. echo "Malgré le prix élevé de 100$, il a dit "Bonjour !" au vendeur :"
