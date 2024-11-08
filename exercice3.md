@@ -8,5 +8,9 @@
    ls 
    cd : Get-Location
 
+7. la couche 2 et 3, gere les communications 
+
 10. Le CIDR est apparu pour augmenter le nombre d'adressages IPV4
+
    
+ 
