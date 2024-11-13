@@ -1,27 +1,26 @@
 #!/bin/bash
 
-new_user()
-{
 
-nom_utilisateur=0
+if [ $# -eq "0" ]
 
-read -p "Nom du nouvel utilisateur :" nom_utilisateur
-
-if [ -z $nom_utilisateur ] 
-
-  then 
-      echo "Il manque les noms d'utilisateurs en argument - Fin du script"
-
-  else 
-      while [ -n $nom_utilisateur ]
-          do 
-              useradd $nom_utilisateur 
-              echo "L'utilisateur $nom_utilisateur a été crée" 
-              exit 
-
-          done 
-
+        then 
+                echo "Fin du script"
+                exit
+        else
+                echo "Les arguments sont bien rentrés" 
+                
+               for nom_utilisateur in $@
+		
+		do
+			if id $nom_utilisateur &> /dev/null
+			then
+			echo "Erreur à la création de l'utilisateur"
+				
+			else
+				useradd $nom_utilisateur
+				echo "L'utilisateur $nom_utilisateur à été créer"
+			fi
+		done                
 fi
-}
 
-new_user
+
